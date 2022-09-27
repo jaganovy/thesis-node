@@ -1,0 +1,85 @@
+body {
+  background-color: #f3f3f3 !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_form_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_form_container > form {
+  background-color: white;
+  border: 1px solid rgb(214, 214, 214);
+  padding: 30px;
+  border-radius: 25px;
+}
+.login_form_container .login-form-button {
+  width: 400px;
+  width: 100%;
+  margin: 0 30px 0 0;
+}
+.login_form_container .or_title {
+  margin: 1em 0 1em 0;
+}
+.login_form_container .or_title,
+.login_form_container .register_link {
+  text-align: center;
+}
+.login_form_container .register_link {
+  display: block;
+}
+.events_add_button{
+  margin: 0 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=index.css.map */
+.login_body{
+  width: 100%;
+  height: 100vh;
+  background: url('https://mediap.flypgs.com/awh/1254/836//files/Ekstrem_Sporlar/bungee-jumping-nedir.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.input-form{
+  width: 256px;
+}
+
+.login_form_container{
+  backdrop-filter: blur(3px);
+}
+
+#normal_login {
+  width: 350px;
+}
+.register_body{
+  width: 100%;
+  height: 100vh;
+  background-color: #393939;
+ 
+  background: url('https://cdn.statically.io/img/awe365.com/wp-content/uploads/2017/07/Guide-to-the-best-Malaysian-scuba-diving-in-Sipadan-Flickr-CC-image-of-Barracuda-point-by-No-Dust.jpg?quality=100&f=auto') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
