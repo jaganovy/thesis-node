@@ -1,12 +1,11 @@
 import mongoose from "mongoose";
 
 const competitionSchema = mongoose.Schema({
-    title: String,
-    message: String,
-    creator: String,
-    
-})
+  title: String,
+  message: String,
+  creator: String,
+});
 
-const CompetitionModel = mongoose.model('CompetitionModel', competitionSchema)
+const CompetitionModel = mongoose.model("CompetitionModel", competitionSchema);
 
-export default CompetitionModel 
+export default CompetitionModel;
